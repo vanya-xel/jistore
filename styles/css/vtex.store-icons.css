@@ -1,0 +1,13 @@
+.plusIcon--disclosure-icon,
+.minusIcon--disclosure-icon {
+  color: #e42760;
+  transform: scale(1.5);
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .plusIcon--disclosure-icon,
+  .minusIcon--disclosure-icon {
+    transform: scale(1.5);
+  }
+}

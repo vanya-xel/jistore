@@ -1,0 +1,24 @@
+{
+    "flex-layout.col#certification-contents": {
+        "props": {
+            "preventVerticalStretch": true,
+            "rowGap": 0
+        },
+        "children": [
+            "rich-text#content-title",
+            "rich-text#content-details"
+        ]
+    },
+    "rich-text#content-title": {
+        "props": {
+            "blockClass": "ExamContentTitle",
+            "text": "Exam Details"
+        }
+    },
+    "rich-text#content-details": {
+        "props": {
+            "blockClass": "ExamContentContent",
+            "text": "Topics included on the exam include, but are not limited to the following:\n- Basic Blocks\n- Complex Layouts\n- Storefront Styling\n- Site Editor & Content Management\n- Improving Performance\n- Custom Blocks\n- Services\n- Admin Applications\n- Calling Commerce APIs"
+        }
+    }
+}

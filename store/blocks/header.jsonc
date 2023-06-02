@@ -1,0 +1,121 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#desktop"
+    ]
+  },
+  "header-row#desktop": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["headerDesktop", "homeRowContainer"]
+    },
+    "children": [      
+      "logo#desktop-header",
+      "menu-item#certifications-header",
+      "menu-item#faq-header",
+      "header-spacer",
+      "login",
+      "minicart.v2",
+      "locale-switcher"
+    ]
+  },
+  "menu-item#certifications-header": {
+    "props": {
+      "id": "menu-item-certifications",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vtex-io-developer-exam/p",
+        "noFollow": false,
+        "tagTitle": "Certification",
+        "text": "Certification"
+      }
+    }
+  },
+  "menu-item#faq-header": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": false,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "logo#desktop-header": {
+    "props": {
+      "title": "",
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "120"
+    }
+  },
+  "login": {
+    "props": {
+      "accessCodeTitle": "Get access code",
+      "acessCodePlaceholder": "Get access code",
+      "blockClass": [
+        "header-links",
+        "header-myaccount"
+      ],
+      "iconLabel": "Log in",
+      "showIconProfile": false
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["header-row#first-mobile"]
+  },
+  "header-row#first-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile-header",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "headerMobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "blocks": ["drawer-header#header"],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "rightToLeft"
+    }
+  },
+  "drawer-header#header": {
+    "children": [
+      "logo#mobile-header",
+      "drawer-close-button",
+      "locale-switcher"
+    ]
+  },
+  "drawer-close-button": {
+    "props": {
+      "size": 16
+    }
+  },
+  "logo#mobile-header": {
+    "props": {
+      "title": "",
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "90"
+    }
+  }
+
+}

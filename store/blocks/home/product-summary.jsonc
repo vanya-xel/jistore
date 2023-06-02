@@ -1,0 +1,17 @@
+{
+    "product-summary.shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-buy-button"
+        ]
+    },
+    "product-summary-buy-button": {
+        "props": {
+            "isOneClickBuy": false,
+            "buyButtonBehavior": "alwaysGoToProduct"
+        }
+    }
+}

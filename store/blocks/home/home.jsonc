@@ -1,0 +1,100 @@
+{
+  "store.home": { 
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.phone",
+      "responsive-layout.tablet"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#banners-main-home", 
+      "rich-text#available-certifications",
+      "list-context.product-list#certifications",
+      "flex-layout.row#references",
+      "flex-layout.row#faq"
+    ]
+  },
+  "responsive-layout.tablet": {
+    "children": [
+      "flex-layout.row#banners-main-home",
+      "rich-text#available-certifications",
+      "list-context.product-list#certifications",
+      "flex-layout.row#references",
+      "flex-layout.row#faq"
+    ]
+  },
+  "responsive-layout.phone": {
+    "children": [
+      "flex-layout.row#banners-main-home",
+      "rich-text#available-certifications",
+      "list-context.product-list#certifications",
+      "flex-layout.row#references",
+      "flex-layout.row#faq"
+    ]
+  },
+  "rich-text#available-certifications": {
+    "props": {
+      "text": "CERTIFICACIONES DISPONIBLES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER", 
+      "blockClass": "CertificationsListTitle"
+    }
+  },
+  "list-context.product-list#certifications": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#certifications"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#certifications": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "productSummaryShelf",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never"
+    }
+  },
+  "flex-layout.row#banners-main-home": {
+    "title": "Banner Cards Row",
+    "children": [
+      "list-context.image-list#home"
+    ],
+    "props": {
+      "blockClass": "bannerMain",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    }
+  },
+  "list-context.image-list#home": {
+    "children": ["slider-layout#home-images"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/home/banner-desktop.png",
+          "mobileImage": "assets/home/banner-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouselMainBanner"
+    }
+  }
+}

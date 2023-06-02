@@ -1,0 +1,5 @@
+{
+  "store.custom#faq": {
+    "children": ["flex-layout.row#faq"]
+  }
+}

@@ -1,0 +1,106 @@
+{
+    "vtex.menu@2.x:menu#footer": {
+      "children": [
+        "menu-item#community-center",
+        "menu-item#developer-portal",
+        "menu-item#help-center",
+        "menu-item#lms",
+        "menu-item#vtex",
+        "menu-item#privacy-terms"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "footerMenu"
+      }
+    },
+    "menu-item#community-center": {
+      "props": {
+        "id": "menu-item-shop-1",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://community.vtex.com/",
+          "target": "_blank",
+          "noFollow": false,
+          "tagTitle": "Community Center",
+          "text": "Community Center"
+        }
+      }
+    },
+    "menu-item#developer-portal": {
+      "props": {
+        "id": "menu-item-shop-2",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://developers.vtex.com/",
+          "target": "_blank",
+          "noFollow": false,
+          "tagTitle": "Developer Portal",
+          "text": "Developer Portal"
+        }
+      }
+    },
+    "menu-item#help-center": {
+      "props": {
+        "id": "menu-item-shop-3",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://help.vtex.com/",
+          "target": "_blank",
+          "noFollow": false,
+          "tagTitle": "Help Center",
+          "text": "Help \nCenter"
+        }
+      }
+    },
+    "menu-item#lms": {
+      "props": {
+        "id": "menu-item-shop-3",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://vtex.allbound.com/",
+          "target": "_blank",
+          "noFollow": false,
+          "tagTitle": "VTEX LMS",
+          "text": "VTEX LMS"
+        }
+      }
+    },
+    "menu-item#vtex": {
+      "props": {
+        "id": "menu-item-shop-4",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://vtex.com/us-en/",
+          "target": "_blank",
+          "noFollow": false,
+          "tagTitle": "VTEX",
+          "text": "VTEX"
+        }
+      }
+    },
+    "menu-item#privacy-terms": {
+      "props": {
+        "id": "menu-item-shop-4",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://vtex.com/us-en/privacy-and-agreements/external-notice/",
+          "target": "_blank",
+          "noFollow": false,
+          "tagTitle": "Privacy Terms",
+          "text": "Privacy \nTerms"
+        }
+      }
+    }
+  }

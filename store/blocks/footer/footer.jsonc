@@ -1,0 +1,41 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "flex-layout.col#img-footer",
+      "vtex.menu@2.x:menu#footer"
+    ],
+    "props": {
+      "blockClass": ["footerMenu"],
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#img-footer": { 
+    "children": [
+      "image#footer"    
+    ],
+    "props": {
+      "blockClass": "footerImg",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#footer": {
+    "props": {
+      "blockClass": "footerImg",
+      "width": 60,
+      "src": "https://user-images.githubusercontent.com/43679629/153637570-c197cb05-5ff0-47fd-8760-80fb851c14a1.png"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "flex-layout.row#references": {
+    "children": ["slider-layout#references"],
+    "props": {
+      "blockClass": "certifiedInfos",
+      "colSizing": "equal"
+    }
+  },
+  "slider-layout#references": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "centerMode": "disabled",
+      "colSizing": "equal",
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": "carousel",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "flex-layout.col#lms",
+      "flex-layout.col#help-center",
+      "flex-layout.col#community",
+      "flex-layout.col#developer-portal"
+    ]
+  },
+  "flex-layout.col#lms": {
+    "props": {
+      "blockClass": "certifiedInfoWrapper"
+    },
+    "children": [
+      "image#lms",
+      "rich-text#lms",
+      "rich-text#lms-subtitle",
+      "link#lms"
+    ]
+  },
+  "image#lms": {
+    "props": {
+      "blockClass": "certifiedInfoImage",
+      "width": 60,
+      "src": "assets/home/icons/learning-tracks.png"
+    }
+  },
+  "rich-text#lms": {
+    "props": {
+      "text": "Learning Tracks",
+      "blockClass": "certifiedInfoTitle"
+    }
+  },
+  "rich-text#lms-subtitle": {
+    "props": {
+      "text": "Access the VTEX Learning Management System (LMS) to learn more out about the various curriculums available to learners.",
+      "blockClass": "certifiedInfoSubtitle"
+    }
+  },
+  "link#lms": {
+    "props": {
+      "blockClass": "certifiedInfoLink",
+      "href": "https://vtex.allbound.com/",
+      "target": "_blank",
+      "label": "See More"
+    }
+  },
+
+  "flex-layout.col#help-center": {
+    "props": {
+      "blockClass": "certifiedInfoWrapper"
+    },
+    "children": [
+      "image#help-center",
+      "rich-text#help-center",
+      "rich-text#help-center-subtitle",
+      "link#help-center"
+    ]
+  },
+  "image#help-center": {
+    "props": {
+      "blockClass": "certifiedInfoImage",
+      "width": 60,
+      "src": "assets/home/icons/help-center.png"
+    }
+  },
+  "rich-text#help-center": {
+    "props": {
+      "text": "Help Center",
+      "blockClass": "certifiedInfoTitle"
+    }
+  },
+  "rich-text#help-center-subtitle": {
+    "props": {
+      "text": "Find tutorials, reference guides and troubleshooting articles for all the information needed to use the VTEX platform.",
+      "blockClass": "certifiedInfoSubtitle"
+    }
+  },
+  "link#help-center": {
+    "props": {
+      "blockClass": "certifiedInfoLink",
+      "href": "https://help.vtex.com/",
+      "target": "_blank",
+      "label": "See More"
+    }
+  },
+  "flex-layout.col#community": {
+    "props": {
+      "blockClass": "certifiedInfoWrapper"
+    },
+    "children": [
+      "image#community",
+      "rich-text#community",
+      "rich-text#community-subtitles",
+      "link#community"
+    ]
+  },
+  "image#community": {
+    "props": {
+      "blockClass": "certifiedInfoImage",
+      "width": 60,
+      "src": "assets/home/icons/community-forum.png"
+    }
+  },
+  "rich-text#community": {
+    "props": {
+      "text": "Community Forum",
+      "blockClass": "certifiedInfoTitle"
+    }
+  },
+  "rich-text#community-subtitles": {
+    "props": {
+      "text": "Join hundreds of developers across the globe in a single location where you can ask questions and help others get their own answered.",
+      "blockClass": "certifiedInfoSubtitle"
+    }
+  },
+  "link#community": {
+    "props": {
+      "blockClass": "certifiedInfoLink",
+      "href": "https://community.vtex.com/",
+      "target": "_blank",
+      "label": "See More"
+    }
+  },
+
+  "flex-layout.col#developer-portal": {
+    "props": {
+      "blockClass": "certifiedInfoWrapper"
+    },
+    "children": [
+      "image#developer-portal",
+      "rich-text#developer-portal",
+      "rich-text#developer-portal-subtitle",
+      "link#developer-portal"
+    ]
+  },
+  "image#developer-portal": {
+    "props": {
+      "blockClass": "certifiedInfoImage",
+      "width": 60,
+      "src": "assets/home/icons/developer-portal.png"
+    }
+  },
+  "rich-text#developer-portal": {
+    "props": {
+      "text": "Developer Portal",
+      "blockClass": "certifiedInfoTitle"
+    }
+  },
+  "rich-text#developer-portal-subtitle": {
+    "props": {
+      "text": "Browse hundreds of resources and guides focused around VTEX core technologies and platform offerings.\nㅤ",
+      "blockClass": "certifiedInfoSubtitle"
+    }
+  },
+  "link#developer-portal": {
+    "props": {
+      "blockClass": "certifiedInfoLink",
+      "href": "https://developer.vtex.com",
+      "target": "_blank",
+      "label": "See More"
+    }
+  }
+}

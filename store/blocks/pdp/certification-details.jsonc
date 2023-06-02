@@ -1,0 +1,145 @@
+{
+    "flex-layout.col#certification-details": {
+        "props": {
+            "blockClass": "certifyAdditionalInfosWrapper"
+        },
+        "children": [
+            "flex-layout.row#questions",
+            "flex-layout.row#passing-score",
+            "flex-layout.row#duration",
+            "flex-layout.row#attempts",
+            "flex-layout.row#validity"
+
+        ]
+    },
+    "flex-layout.row#questions": {
+        "props": {
+            "blockClass": "certifyAdditionalInfosInnerWrapper",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#questions",
+            "rich-text#questions-content"
+        ]
+    },
+    "rich-text#questions-content": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "ExamDetailsContent",
+            "text": "**Total questions:** 60"
+        }
+    },
+    "image#questions": {
+        "props": {
+            "blockClass": "certifiedInfoImage",
+            "width": 36,
+            "src": "assets/pdp/questions.png"
+        }
+    },
+    "flex-layout.row#duration": {
+        "props": {
+            "blockClass": "certifyAdditionalInfosInnerWrapper",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#duration",
+            "rich-text#duration-content"
+        ]
+    },
+    "rich-text#duration-content": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "ExamDetailsContent",
+            "text": "**Duration:** 90 minutes"
+        }
+    },
+    "image#duration": {
+        "props": {
+            "blockClass": "certifiedInfoImage",
+            "width": 36,
+            "src": "assets/pdp/duration.png"
+        }
+    },
+    "flex-layout.row#passing-score": {
+        "props": {
+            "blockClass": "certifyAdditionalInfosInnerWrapper",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#passing-score",
+            "rich-text#score-content"
+        ]
+    },
+    "rich-text#score-content": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "ExamDetailsContent",
+            "text": "**Passing score:** 75% (45/60)"
+        }
+    },
+    "image#passing-score": {
+        "props": {
+            "blockClass": "certifiedInfoImage",
+            "width": 36,
+            "src": "assets/pdp/score.png"
+        }
+    },
+    "flex-layout.row#validity": {
+        "props": {
+            "blockClass": "certifyAdditionalInfosInnerWrapper",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#validity",
+            "rich-text#validity-content"
+        ]
+    },
+    "rich-text#validity-content": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "ExamDetailsContent",
+            "text": "**Validity:** 24 months"
+        }
+    },
+    "image#validity": {
+        "props": {
+            "blockClass": "certifiedInfoImage",
+            "width": 36,
+            "src": "assets/pdp/validity.png"
+        }
+    },
+    "flex-layout.row#attempts": {
+        "props": {
+            "blockClass": "certifyAdditionalInfosInnerWrapper",
+            "preventHorizontalStretch": true,
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#attempts",
+            "rich-text#attempts-content"
+        ]
+    },
+    "rich-text#attempts-content": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "ExamDetailsContent",
+            "text": "**Attempts:** 2 maximum"
+        }
+    },
+    "image#attempts": {
+        "props": {
+            "blockClass": "certifiedInfoImage",
+            "width": 36,
+            "src": "assets/pdp/attempts.png"
+        }
+    }
+}

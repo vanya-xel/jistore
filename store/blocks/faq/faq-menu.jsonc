@@ -1,0 +1,409 @@
+{ 
+  "flex-layout.row#faq": {
+    "props": {
+      "blockClass": "faqWrapper"
+    },
+    "children": ["flex-layout.col#faq"]
+  },
+
+  "flex-layout.col#faq": {
+    "children": ["rich-text#faq-title", "disclosure-layout-group#group"]
+  },
+
+  "rich-text#faq-title": {
+    "props": {
+      "text": "Frequently Asked Questions",
+      "blockClass": "faqTitle"
+    }
+  },
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth",
+      "disclosure-layout#fifth",
+      "disclosure-layout#sixth",
+      "disclosure-layout#seventh",
+      "disclosure-layout#eighth",
+      "disclosure-layout#nineth",
+      "disclosure-layout#tenth",
+      "disclosure-layout#eleventh"
+    ],
+    "props": {
+      "blockClass": "faqWrapperItems"
+    }
+  },
+
+  /* first question */
+
+  "disclosure-layout#first": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question1", "disclosure-state-indicator"]
+  },
+  "disclosure-content#first": {
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "Who are the target audiences for each VTEX certification?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Each certification has its own specified target audience based on the topics covered.\n\n**VTEX IO Developer Certification:**\n- Developers that have signficant experience with both front-end and back-end implementations and projects on the VTEX Platform.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* second question */
+
+  "disclosure-layout#second": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question2", "disclosure-state-indicator"]
+  },
+  "disclosure-content#second": {
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "Can anyone register for a VTEX certification exam?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "**No.** Only VTEX Partners are eligible for certifications at this time. Individual developers or other professionals cannot sit for any exam.\n\nVTEX clients should reach out to their VTEX Customer Success Manager (CSM) for more information on their eligiblity.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* third question */
+
+  "disclosure-layout#third": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question3", "disclosure-state-indicator"]
+  },
+  "disclosure-content#third": {
+    "children": ["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "What are the prerequisites to take a VTEX certification exam?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "VTEX recommends that all candidates complete the following requirements before registering for and sitting the respective exam.\n\n**VTEX IO Developer Certification:**\n1. Complete the VTEX Partner Enablement Curriculum.\n2. Participate in at least one VTEX project, having played a major role in thedevelopment and implementation processes.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* fourth question */
+
+  "disclosure-layout#fourth": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": [ "rich-text#question4", "disclosure-state-indicator"]
+  },
+  "disclosure-content#fourth": {
+    "children": ["rich-text#answer4"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "How is the exam delivered to the candidate?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "The exam is carried out in an online environment (via the [Flexiquiz](https://www.flexiquiz.com/) platform). Access to the software provider and exam are granted upon registration on this site.\n\nUpon order confirmation an email will be sent to the registered user with information on how to complete registration and access the exam.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* fifth question */
+
+  "disclosure-layout#fifth": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#fifth", "disclosure-content#fifth"]
+  },
+  "disclosure-trigger#fifth": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question5", "disclosure-state-indicator"]
+  },
+  "disclosure-content#fifth": {
+    "children": ["rich-text#answer5"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "How many attempts are granted for each exam?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "A maximum number of two (2) attempts are given to each candidate at a time.\n\nCandidates that do not pass on the first attempt are recommended to wait at least one (1) week before re-sitting the exam. Those that do not pass either attempt must wait a minimum period of three (3) months before the are applicable to sit the exam again.\n\nA VTEX representative will reach out to these developers with further instructions.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* sixth question */
+
+  "disclosure-layout#sixth": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#sixth", "disclosure-content#sixth"]
+  },
+  "disclosure-trigger#sixth": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question6", "disclosure-state-indicator"]
+  },
+  "disclosure-content#sixth": {
+    "children": ["rich-text#answer6"]
+  },
+  "rich-text#question6": {
+    "props": {
+      "text": "How long is the certification valid for?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "text": "Each certification is valid for a period of two (2) years. After the certification expires, it will be necessary to re-sit the exam in its entirety.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* seventh question */
+
+  "disclosure-layout#seventh": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#seventh", "disclosure-content#seventh"]
+  },
+  "disclosure-trigger#seventh": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": [ "rich-text#question7", "disclosure-state-indicator"]
+  },
+  "disclosure-content#seventh": {
+    "children": ["rich-text#answer7"]
+  },
+  "rich-text#question7": {
+    "props": {
+      "text": "Is it possible to register for the exam on someone's behalf?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer7": {
+    "props": {
+      "text": "**Yes.** Upon registration, it will be necessary to provide the First Name, Last Name, and Email Address of the candidate that will be sitting for the exam.\n\nThe provided candidate details are **not required** to be tied to the individual purchasing the exam.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* eighth question */
+
+  "disclosure-layout#eighth": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#eighth", "disclosure-content#eighth"]
+  },
+  "disclosure-trigger#eighth": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question8", "disclosure-state-indicator"]
+  },
+  "disclosure-content#eighth": {
+    "children": ["rich-text#answer8"]
+  },
+  "rich-text#question8": {
+    "props": {
+      "text": "Are any resources or tools able to be used during the exam?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer8": {
+    "props": {
+      "text": "**No.** Reference materials of any kind are prohibited.\n\nAny hard-copy or online materials are **forbidden** and the use of them will immediately disqualify the candidate from eligibility for the respective certification.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* ninth question */
+
+  "disclosure-layout#nineth": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#nineth", "disclosure-content#nineth"]
+  },
+  "disclosure-trigger#nineth": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question9", "disclosure-state-indicator"]
+  },
+  "disclosure-content#nineth": {
+    "children": ["rich-text#answer9"]
+  },
+  "rich-text#question9": {
+    "props": {
+      "text": "When will certifications be available? When will exam results be sent?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer9": {
+    "props": {
+      "text": "Exam results are available immediately upon submission by the candidate. They will be automatically redirected to a page showing a categorical breakdown of the exam and their percentage of correct responses.\n\nIn the event that the candidate has passed, the platform immediately generates a certificate with the candidate's Full Name, Issue Date, and Expiration Date.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* tenth question */
+
+  "disclosure-layout#tenth": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#tenth", "disclosure-content#tenth"]
+  },
+  "disclosure-trigger#tenth": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": [ "rich-text#question10", "disclosure-state-indicator"]
+  },
+  "disclosure-content#tenth": {
+    "children": ["rich-text#answer10"]
+  },
+  "rich-text#question10": {
+    "props": {
+      "text": "What if I have still have questions about an exam or similar topic?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer10": {
+    "props": {
+      "text": "In the event of any additional questions, please reach out to the [VTEX Partner Enablement Team](mailto:tyler.greff@vtex.com.br) via email. Additionally, you may post any questions to the [Training & Certification](https://community.vtex.com/c/training-certification/48) category on the VTEX Community Forum.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  /* eleventh question */
+
+  "disclosure-layout#eleventh": {
+    "props": {
+      "animated": true,
+      "blockClass": "faq"
+    },
+    "children": ["disclosure-trigger#eleventh", "disclosure-content#eleventh"]
+  },
+  "disclosure-trigger#eleventh": {
+    "props": {
+      "blockClass": "faq",
+      "as": "div"
+    },
+    "children": ["rich-text#question11", "disclosure-state-indicator"]
+  },
+  "disclosure-content#eleventh": {
+    "children": ["rich-text#answer11"]
+  },
+  "rich-text#question11": {
+    "props": {
+      "text": "My exam order was cancelled. What does my error code mean?",
+      "blockClass": "faqQuestionTitle"
+    }
+  },
+  "rich-text#answer11": {
+    "props": {
+      "text": "**'User has already been registered for this exam.'**\n- The user has previously purchased the exam in question. When a user purchases the exam they immediately granted two (2) attempts. There is no need to register for the exam if you did not pass on your first attempt. *In the event that the user has exceeded both attempts, please reach out to the VTEX Partner team to rectify this*.\n\n**'User is not registered in the VTEX Learning Management System.'**\n- One prerequisite for the examination is to complete the associated curriculum. This material is available in the [VTEX LMS](https://vtex.allbound.com). Please register on the platform and complete the necessary learning tracks before registering for the examination.",
+      "blockClass": "faqAnswerResponse"
+    }
+  },
+
+  "disclosure-state-indicator": {
+    "title": "CollapseMenu: More Information",
+    "props": {
+      "Show": "icon-plus",
+      "Hide": "icon-minus"
+    }
+  },
+  "icon-plus": {
+    "title": "CollapseMenu: More Information (+)",
+    "props": {
+      "blockClass": ["disclosure-icon"]
+    }
+  },
+  "icon-minus": {
+    "title": "CollapseMenu: More Information (-)",
+    "props": {
+      "blockClass": ["disclosure-icon"]
+    }
+  }
+}

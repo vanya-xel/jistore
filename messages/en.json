@@ -1,0 +1,58 @@
+{
+    "store/rich-text.available-certifications.text": "Available Certifications",
+
+    "store/rich-text.question1.text": "Who are the target audiences for each VTEX certification?",
+    "store/rich-text.answer1.text": "Each certification has its own specified target audience based on the topics covered.\n\n**VTEX IO Developer Certification:**\n- Developers that have signficant experience with both front-end and back-end implementations and projects on the VTEX Platform.",
+    
+    "store/rich-text.question2.text": "Can anyone register for a VTEX certification exam?",
+    "store/rich-text.answer2.text": "**No.** Only VTEX Partners are eligible for certifications at this time. Individual developers or other professionals cannot sit for any exam.\n\nVTEX clients should reach out to their VTEX Customer Success Manager (CSM) for more information on their eligiblity.",
+    
+    "store/rich-text.question3.text": "What are the prerequisites to take a VTEX certification exam?",
+    "store/rich-text.answer3.text": "VTEX recommends that all candidates complete the following requirements before registering for and sitting the respective exam.\n\n**VTEX IO Developer Certification:**\n1. Complete the VTEX Partner Enablement Curriculum.\n2. Participate in at least one VTEX project, having played a major role in thedevelopment and implementation processes.",
+    
+    "store/rich-text.question4.text": "How is the exam delivered to the candidate?",
+    "store/rich-text.answer4.text": "The exam is carried out in an online environment (via the [Flexiquiz](https://www.flexiquiz.com/) platform). Access to the software provider and exam are granted upon registration on this site.\n\nUpon order confirmation an email will be sent to the registered user with information on how to complete registration and access the exam.",
+    
+    "store/rich-text.question5.text": "How many attempts are granted for each exam?",
+    "store/rich-text.answer5.text": "A maximum number of two (2) attempts are given to each candidate at a time.\n\nCandidates that do not pass on the first attempt are recommended to wait at least one (1) week before re-sitting the exam. Those that do not pass either attempt must wait a minimum period of three (3) months before the are applicable to sit the exam again.\n\nA VTEX representative will reach out to these developers with further instructions.",
+    
+    "store/rich-text.question6.text": "How long is the certification valid for?",
+    "store/rich-text.answer6.text": "Each certification is valid for a period of two (2) years. After the certification expires, it will be necessary to re-sit the exam in its entirety.",
+    
+    "store/rich-text.question7.text": "Is it possible to register for the exam on someone's behalf?",
+    "store/rich-text.answer7.text": "**Yes.** Upon registration, it will be necessary to provide the First Name, Last Name, and Email Address of the candidate that will be sitting for the exam.\n\nThe provided candidate details are **not required** to be tied to the individual purchasing the exam.",
+    
+    "store/rich-text.question8.text": "Are any resources or tools able to be used during the exam?",
+    "store/rich-text.answer8.text": "**No.** Reference materials of any kind are prohibited.\n\nAny hard-copy or online materials are **forbidden** and the use of them will immediately disqualify the candidate from eligibility for the respective certification.",
+    
+    "store/rich-text.question9.text": "When will certifications be available? When will exam results be sent?",
+    "store/rich-text.answer9.text": "Exam results are available immediately upon submission by the candidate. They will be automatically redirected to a page showing a categorical breakdown of the exam and their percentage of correct responses.\n\nIn the event that the candidate has passed, the platform immediately generates a certificate with the candidate's Full Name, Issue Date, and Expiration Date.",
+    
+    "store/rich-text.question10.text": "What if I have still have questions about an exam or similar topic?",
+    "store/rich-text.answer10.text": "In the event of any additional questions, please reach out to the [VTEX Partner Enablement Team](mailto:tyler.greff@vtex.com.br) via email. Additionally, you may post any questions to the [Training & Certification](https://community.vtex.com/c/training-certification/48) category on the VTEX Community Forum.",
+    
+    "store/rich-text.question11.text": "My exam order was cancelled. What does my error code mean?",
+    "store/rich-text.answer11.text": "**'User has already been registered for this exam.'**\n- The user has previously purchased the exam in question. When a user purchases the exam they immediately granted two (2) attempts. There is no need to register for the exam if you did not pass on your first attempt. *In the event that the user has exceeded both attempts, please reach out to the VTEX Partner team to rectify this*.\n\n**'User is not registered in the VTEX Learning Management System.'**\n- One prerequisite for the examination is to complete the associated curriculum. This material is available in the [VTEX LMS](https://vtex.allbound.com). Please register on the platform and complete the necessary learning tracks before registering for the examination.",
+
+
+    "store/link.label": "See More",
+    "store/rich-text.lms.title": "Learning Tracks",
+    "store/rich-text.lms.subTitle": "Access the VTEX Learning Management System (LMS) to learn more out about the various curriculums available to learners.",
+    "store/rich-text.help-center.title": "Help Center",
+    "store/rich-text.help-center.subTitle": "Find tutorials, reference guides and troubleshooting articles for all the information needed to use the VTEX platform.",
+    "store/rich-text.community.title": "Community Forum",
+    "store/rich-text.community.subTitle": "Join hundreds of developers across the globe in a single location where you can ask questions and help others get their own answered.",
+    "store/rich-text.developer-portal.title": "Developer Portal",
+    "store/rich-text.developer-portal.subTitle": "Browse hundreds of resources and guides focused around VTEX core technologies and platform offerings.\nㅤ",
+
+
+    "store/pdp.rich-text.content-title.title": "Exam Details",
+    "store/pdp.rich-text.content-details.text": "Topics included on the exam include, but are not limited to the following:\n- Basic Blocks\n- Complex Layouts\n- Storefront Styling\n- Site Editor & Content Management\n- Improving Performance\n- Custom Blocks\n- Services\n- Admin Applications\n- Calling Commerce APIs",
+
+    "store/pdp.rich-text.certification-details.questions.text": "**Total questions:** 60",
+    "store/pdp.rich-text.certification-details.duration.text": "**Duration:** 90 minutes",
+    "store/pdp.rich-text.certification-details.score.text": "**Passing score:** 75% (45/60)",
+    "store/pdp.rich-text.certification-details.validity.text": "**Validity:** 24 months",
+    "store/pdp.rich-text.certification-details.attempts.text": "**Attempts:** 2 maximum"
+
+}

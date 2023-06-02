@@ -1,0 +1,12 @@
+{
+    "product-assembly-options": {
+      "children": [
+        "assembly-option-input-values"
+      ]
+    },
+    "assembly-option-input-values": {
+      "props": {
+        "optionsDisplay": "box"
+      }
+    }
+  }

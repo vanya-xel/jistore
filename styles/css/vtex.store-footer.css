@@ -1,0 +1,30 @@
+.footerLayout {
+    background-color: #111c2d;
+    padding-top: 16px;
+  }
+  
+  .footerLayout :global(.vtex-menu-2-x-menuContainerNav) {
+    margin-bottom: 64px;
+  }
+  
+  .footerLayout :global(.vtex-store-components-3-x-imageElement) {
+    width: 60px;
+    height: 22px;
+  }
+  
+  /*Breakpoints */
+  
+  @media (min-width: 1026px) {
+    .footerLayout {
+      padding-top: 56px;
+    }
+  
+    .footerLayout :global(.vtex-menu-2-x-menuContainerNav) {
+      margin-bottom: 0;
+    }
+  
+    .footerLayout :global(.vtex-store-components-3-x-form) {
+      max-width: none;
+    }
+  }
+  

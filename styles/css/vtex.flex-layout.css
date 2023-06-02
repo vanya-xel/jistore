@@ -1,0 +1,132 @@
+.flexRow--certifiedInfos :global(.vtex-store-components-3-x-container) {
+  padding: 90px 0;
+}
+
+.flexCol--certifiedInfoWrapper {
+  max-width: 307px;
+  height: 450px;
+  padding: 1rem 0;
+  background: white;
+}
+
+.flexColChild--certifiedInfoWrapper {
+  border-radius: 6px;
+  padding: 0 1rem;
+  background: white;
+}
+
+.flexRowContent--certifiedInfos {
+  width: 100%;
+}
+
+
+.flexRow--certifiedSectionDesk {
+  padding: 0 2rem 2rem;
+}
+
+.flexCol--certifyAdditionalInfosWrapper  {
+  margin-bottom: 1.5rem;
+  grid-row: 2;
+  padding-bottom: 0rem;
+  grid-column: 1;
+  justify-self: start;
+  max-width: 645px;
+  box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.flexColChild--certifyAdditionalInfosWrapper {
+  padding-bottom: 0rem;
+}
+
+.flexRow--certifyAdditionalInfosInnerWrapper {
+  border-bottom: 1px solid #e7e9ee;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.flexRowContent--product-main {
+  justify-content: center;
+}
+
+.flexRowContent--faqWrapper {
+  flex-direction: column;
+  background: white;
+}
+
+.flexRowContent--faqWrapper .stretchChildrenWidth {
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.flexRow--faqWrapper {
+  background: white;
+}
+
+.flexRow--productFieldWrapper {
+  background: white;
+}
+
+.flexRow--faqWrapper :global(.vtex-disclosure-layout-1-x-content) {
+  padding: 0 2rem;
+  background: white;
+}
+
+.flexRow--faqWrapper :global(.vtex-disclosure-layout-1-x-content--visible) {
+  margin-bottom: 1.5rem;
+  box-shadow: 0 9px 10px rgb(0 0 0 / 0.2);
+}
+
+.flexRow--faqWrapper :global(.vtex-disclosure-layout-1-x-trigger--faq--hidden) {
+  margin-bottom: 1.5rem;
+}
+
+.flexRowContent--productFieldWrapper .stretchChildrenWidth {
+  flex-direction: column;
+}
+
+.flexRow--productMainBanner {
+  background: white;
+}
+
+.flexRow--productMainBanner :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flexRow--productMainWrapper :global(.vtex-numeric-stepper-wrapper) {
+  width: 173px;
+}
+
+.flexRow--productMainWrapper :global(.vtex-numeric-stepper__input) {
+  width: 100%;
+  border-right: none;
+  border-left: none;
+  background: #f8f7fc;
+}
+
+.flexRow--productMainWrapper :global(.vtex-numeric-stepper__plus-button),
+.flexRow--productMainWrapper :global(.vtex-numeric-stepper__minus-button) {
+  color: #717786;
+  background: #f8f7fc;
+}
+
+@media screen and (max-width: 768px) {
+  .flexRow--certifiedSectionDesk {
+    display: none;
+  }
+  .flexRow--productMainWrapper :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flexRow--certifiedSectionMob {
+    display: none;
+  }
+}

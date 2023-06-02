@@ -1,0 +1,16 @@
+/* Home */
+
+.slide--productSummaryShelf {
+  background: #ffffff;
+  padding-top: 1.5rem ;
+  padding-bottom: 1.5rem;
+}
+
+.slideChildrenContainer--productSummaryShelf {
+    background: #ffffff;
+    padding: 1.5rem 0.75rem 1.5rem;
+}
+
+.imageElement--carouselMainBanner {
+  max-height: none !important;
+}

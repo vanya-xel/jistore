@@ -1,0 +1,26 @@
+.trigger--faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: white;
+    border: none;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  
+  .trigger--faq--visible
+    :global(.vtex-rich-text-0-x-paragraph--faqQuestionTitle) {
+    color: #e42760;
+  }
+  
+  .trigger--faq--visible :global(.vtex-rich-text-0-x-wrapper--faqQuestionTitle) {
+    color: #e42760;
+  }
+  
+  .content--hidden {
+    display: none;
+  }
+  

@@ -1,0 +1,67 @@
+.container {
+  max-width: calc(1320px + 2rem);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+
+.imageElement--certifiedInfoImage {
+  object-fit: contain;
+}
+
+
+/* Footer */
+
+.imageElement--footerImg {
+  margin-bottom: 32px;
+  padding-left: 24px;
+}
+
+/* Product */
+
+.imageElement--developerImage {
+  border-radius: 5px;
+}
+
+.productDescriptionTitle {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #f71963;
+}
+
+.productDescriptionText {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #4a596b;
+}
+
+.list--productDescriptionText {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+
+/* Breakpoints */
+@media (min-width: 640px) {
+
+  /* Footer */
+  .imageElement--footerImg {
+    margin-bottom: 0;
+  }
+}
+
+

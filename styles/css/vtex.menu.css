@@ -1,0 +1,191 @@
+/* Category */
+.menuContainer--categoryBannerMenu {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  column-count: 2;
+  column-gap: 42px;
+  display: block;
+  height: 134px;
+  padding: 32px 16px;
+  width: 273px;
+}
+
+.menuContainer--categoryBannerMenu .styledLinkContainer {
+  margin: 0;
+}
+
+.menuContainer--categoryBannerMenu .styledLink {
+  color: #142032;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* Header */
+
+.menuContainer--headerMenuDesk {
+  -ms-overflow-style: none; /* IE and Edge */
+  margin: 0 -16px;
+  overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+.menuContainer--headerMenuDesk::-webkit-scrollbar {
+  display: none;
+}
+
+.menuContainer--headerMenu .menuItem {
+  margin-top: 32px;
+}
+
+.menuContainer--headerMenu .styledLinkContainer {
+  padding: 0;
+}
+
+.menuContainer--headerMenu .styledLink {
+  color: #4a596b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.menuContainer--headerMenu .menuItemInnerDiv {
+  position: relative;
+}
+
+.menuContainer--headerMenu
+  .styledLink
+  :global(.vtex-menu-2-x-accordionIcon--isOpen) {
+  width: 100%;
+  padding-right: 32px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+}
+
+.menuContainer--headerMenu
+  .styledLink
+  :global(.vtex-menu-2-x-accordionIcon--isOpen)::before {
+  background-color: #f71963;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 2px;
+  left: 0;
+}
+
+.submenuAccordion--submenuCategorias {
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.submenuAccordion--submenuCategorias .menuItem {
+  margin-top: 20px;
+}
+
+/*Footer */
+
+.menuContainer--footerMenu {
+  flex-wrap: wrap;
+  max-height: 115px;
+}
+
+.menuContainer--footerMenu .menuItem {
+  margin-bottom: 16px;
+}
+
+.menuContainer--footerMenu .styledLinkContainer {
+  margin: 0;
+  padding: 0;
+}
+
+.menuContainer--footerMenu .menuItem .styledLink {
+  color: #ccced8;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.menuContainerNav
+  .menuItem--partner-main-area
+  .styledLinkContent--partner-main-area {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #f71963;
+}
+
+.menuItem--partner-main-area .submenuContainer .menuContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem--partner-main-area .submenuContainer .menuContainer .menuItem {
+  margin-bottom: 0.5rem;
+}
+
+.menuItem--partner-main-area
+  .submenuContainer
+  .menuContainer
+  .menuItem
+  .styledLinkContent:hover {
+  color: #f71963;
+}
+
+.menuItem--partner-main-area .submenuContainer .submenuWrapper {
+  border-bottom: none;
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+@media (min-width: 1026px) {
+  /* Category */
+
+  .menuContainerNav--categoryBannerMenu {
+    width: 100%;
+  }
+
+  .menuContainer--categoryBannerMenu {
+    background-color: #ffffff;
+    border-radius: 0px 4px 4px 0px;
+    display: block;
+    height: 150px;
+    min-width: 390px;
+    padding: 39px 55px;
+    width: 100%;
+  }
+
+  .menuContainer--categoryBannerMenu .styledLinkContainer {
+    display: inline;
+  }
+
+  .menuContainer--categoryBannerMenu .styledLink {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 1360px) {
+  /* Footer */
+  .menuContainer--footerMenu {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .menuContainer--footerMenu .menuItem {
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+
+  .styledLinkContent {
+    text-align: center;
+  }
+}

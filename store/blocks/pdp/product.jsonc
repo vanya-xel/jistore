@@ -1,0 +1,157 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-main",
+      "flex-layout.row#description",
+      "flex-layout.row#certification-info"
+    ]
+  },
+  "flex-layout.row#certification-info": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 0,
+      "marginBottom": 7,
+      "paddingTop": 4,
+      "paddingBottom": 7
+    },
+    "children": [
+      "flex-layout.col#certification-contents",
+      "flex-layout.col#certification-details"
+    ]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colSizing": "auto",
+      "colGap": 5,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7, 
+      "horizontalAlign": "center", 
+      "blockClass":  "product-main"
+    },
+    "children": ["flex-layout.row#fake-product-image", "flex-layout.col#right-col"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["product-description"]
+  },
+  "product-description": {
+    "props": {
+      "collapseContent": true,
+      "showTitle": true,
+      "title": "Exam Prerequisites"
+    }
+  },
+
+  "flex-layout.row#fake-product-image": {
+    "children": ["image#developer"]
+  },
+  "image#developer": {
+    "props": {
+      "src": "assets/pdp/developer-image.png",
+      "maxHeight": 507, 
+      "blockClass": "developerImage"
+    }
+  },
+
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "auto"
+      },
+      "thumbnailVisibility": "hidden",
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "maxHeight": 70, 
+      "zoomMode": "disabled"
+    }
+  },
+  "rich-text#warning": {
+    "props": {
+      "text": "Disclaimer: _Users must be registered in the VTEX LMS to successfully purchase this exam._",
+      "blockClass": "ExamWarning"
+    }
+  },
+
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "width": "30%"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-separator",
+      "product-list-price",
+      "product-price-savings",
+      "sku-selector",
+      "product-assembly-options",
+      "rich-text#warning",
+      "flex-layout.row#buy-button"
+    ]
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["vtex.store-components:product-name", "product-images"]
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [ "flex-layout.row#product"]
+  },
+  "product-quantity": {
+    "props": {
+      "size": "medium",
+      "showLabel": false
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+  "flex-layout.row#product": {
+    "children": [
+      "add-to-cart-button"
+    ]
+  },
+  "flex-layout.row#selling-price": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      "product-selling-price"
+    ]
+  },
+
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 5
+    },
+    "children": [
+      "product-list-price",
+      "product-price-savings"
+    ]
+  }
+
+}

@@ -1,0 +1,71 @@
+.minicartWrapperContainer {
+    border-right: 1px solid #e7e9ee;
+    height: 100%;
+  }
+  
+  .minicartContainer :global(.vtex-button):hover {
+    background: transparent;
+  }
+  
+  .minicartContainer :global(.vtex-button__label) {
+    padding: 0 2.75rem;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .minicartContainer :global(.vtex-button__label) {
+      padding: 0 1.5rem;
+    }
+    .drawer {
+      width: 100% !important;
+    }
+  }
+  
+  .drawerContent .closeIcon {
+    width: 20px;
+    height: 20px;
+    overflow: visible;
+  }
+  
+  .minicartTitle {
+    color: #142032;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .drawerContent :global(.vtex-product-list-0-x-productBrandName),
+  .drawerContent :global(.vtex-product-list-0-x-productPrice),
+  .drawerContent
+    :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child {
+    color: #f71963;
+    font-weight: 400;
+  }
+  
+  .drawerContent :global(.vtex-product-list-0-x-productBrandName) {
+    font-size: 12px;
+  }
+  
+  .drawerContent :global(.vtex-product-list-0-x-productPrice) {
+    font-size: 16px;
+  }
+  
+  .drawerContent :global(.vtex-product-list-0-x-deleteIcon) {
+    width: 20px;
+    height: 20px;
+    overflow: visible;
+  }
+  
+  .drawerContent :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    display: none;
+  }
+  
+  .minicartCheckoutButton :global(.vtex-button) {
+    height: 52px;
+  }
+  
+  .minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: Fabriga Medium, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  

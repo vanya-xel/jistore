@@ -1,0 +1,143 @@
+/* Home */
+
+.container--CertificationsListTitle {
+  padding-top: 1rem;
+  background: #ffffff;
+}
+
+.paragraph--CertificationsListTitle {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2px;
+  letter-spacing: 0;
+  color: #f71963;
+  padding-top: 40px;
+}
+
+
+/* pdp */ 
+
+.paragraph--certifiedInfoTitle {
+  margin: 0;
+}
+
+.paragraph--certifiedInfoTitle {
+  color: #4a596b;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-bottom: 1px solid #e7e9ee;
+  width: 100%;
+}
+
+.container--certifiedInfoTitle {
+  width: 100%;
+  display: block;
+}
+
+.paragraph--certifiedInfoSubtitle {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4a596b;
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+  min-height: 92px;
+}
+
+.paragraph--ExamContentTitle {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #f71963;
+}
+
+.paragraph--ExamContentContent {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.list--ExamContentContent {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.paragraph--ExamDetailsContent {
+  font-size: 1.15rem;
+  font-style: normal;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #4a596b;
+}
+
+.paragraph--ExamDetailsTitle {
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #f71963;
+}
+
+.paragraph--ExamWarning {
+  color: #f71963;
+}
+
+
+/* faq */ 
+
+.wrapper--faqTitle {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4a596b;
+}
+
+.wrapper--faqQuestionTitle {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #717786;
+}
+
+.container--faqQuestionTitle {
+  max-width: calc(100% - 24px);
+  margin-right: 48px;
+}
+
+.wrapper--faqAnswerResponse {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4a596b;
+  padding-bottom: 2rem;
+}
